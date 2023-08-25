@@ -1,6 +1,6 @@
 # NodeJS_CICD_Pipeline_with_GitHubActions_AWS-CodeDeploy
 
-How to set CICD for nodejs app with aws codeDeploy and aws codePipeline
+Set up CICD for nodejs app with aws codeDeploy and aws codePipeline
 
 ## Installation instructions
 
