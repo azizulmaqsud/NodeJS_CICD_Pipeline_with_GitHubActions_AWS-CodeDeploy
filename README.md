@@ -1,18 +1,18 @@
 # NodeJS_CICD_Pipeline_with_GitHubActions_AWS-CodeDeploy
 
-How to set ci/cd for nodejs app with aws codeDeploy and aws codePipeline
+How to set CICD for nodejs app with aws codeDeploy and aws codePipeline
 
 ## Installation instructions
 
-### 1. Launch amazon linux server in aws
+### 1. Launch Amazon Linux server in AWS
 
-### 2. ssh to linux to install packages
+### 2. ssh to Linux to install packages
 
 ```sh
 ssh -i <key.pem> ec2-user@<ip-address> -v
 ```
 
-### 3. Update and Upgrade linux machine and install node, nvm and pm2
+### 3. Update and Upgrade Linux machine and install node, nvm, and pm2
 
 ```sh
 sudo yum update
@@ -26,7 +26,7 @@ sudo yum upgrade
 sudo yum install -y git htop wget
 ```
 
-#### 3.1 install node
+#### 3.1 Install node
 
 To **install** or **update** nvm, you should run the [install script][2]. To do that, you may either download and run the script manually, or use the following cURL or Wget command:
 ```sh
